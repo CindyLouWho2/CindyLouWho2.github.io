@@ -20,7 +20,7 @@ ________________________________________________________________________________
 2. Added a media query for print
 3. Moved the JS to end of HTML document
 4. Removed the Google Analytics
-5. Optimized all images by using *[download](https://tinyjpg.com)* and/or *[download](https://online-convert.com)*
+5. Optimized all images by using *[tinyjpg](https://tinyjpg.com)* and/or *[download](https://online-convert.com)*
 6. Replaced Google webfont
 
 ## Modifications to pizza.html and main.js to obtain a FPS of 60.
