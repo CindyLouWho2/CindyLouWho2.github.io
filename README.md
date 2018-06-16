@@ -6,7 +6,7 @@ Your challenge is to optimize this online portfolio for speed! In particular, op
 You can *[clone](https://github.com/CindyLouWho2/CindyLouWho2.github.io.git)* or *[download](https://github.com/CindyLouWho2/CindyLouWho2.github.io.git)* this project via [GitHub](https://github.com) to your local machine.
 
 Part 1: Optimize PageSpeed Insights score for index.html 
-
+I obtained a score of 94 on the Desktop but only 83 on the Mobile. I do not know how to improve mobile score since the optimization suggestions call for 'reducing the server response time" and 'leveraging browser caching' which are beyond my control. 
 ![Using ngrok](./Desktop.png)
 ![Using ngrok](./Mobile.png)
 
@@ -16,17 +16,16 @@ ________________________________________________________________________________
 
 
 1. CSS styles file was removed and inlined in HTML
-
 2. Added a media query for print
 3. Moved the JS to end of HTML document
 4. Removed the Google Analytics
-5. Optimized all images by using *[tinyjpg](https://tinyjpg.com)* and/or *[download](https://online-convert.com)*
+5. Optimized all images by using *[tinyjpg](https://tinyjpg.com)* and/or *[online-convert](https://online-convert.com)*
 6. Replaced Google webfont
 
 ## Modifications to pizza.html and main.js to obtain a FPS of 60.
 __________________________________________________________________________________________________
 
-1. Optimized all images by using *[download](https://tinyjpg.com)* and/or *[download](https://online-convert.com)*
+1. Optimized all images by using *[tinyjpg](https://tinyjpg.com)* and/or *[online-convert](https://online-convert.com)*
 2. Replaced querySelectorAll with getElementsByClassName
 3. Moved multiple variables out of the For loops so they would be ran everytime the loop was
 4. Reduced number of moving pizza's from 200 to 30 based on screen size
